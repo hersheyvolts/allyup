@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#nav {
+
+}
+
+
+#nav>ul>li {
+    float: left;
+}
+
+#nav>ul>li>a {
+    text-decoration: none;
+    color: #888381;
+    display: block;
+    width:150px;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    margin-top: 50px;
+
+}
+
+#nav>ul>li>a:hover, #nav>ul>li>a:active {
+    background-color: #73196C;
+    color:white;
+}
+
+#logo {
+    float: left;
+    display: block;
+}
+
+.mainlogo {
+    width: 200px;
+    margin: 30px 30px 0px 30px;
+}
+
+body {
+    font-family: verdana;
+}
+
+
