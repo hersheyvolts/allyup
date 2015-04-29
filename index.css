@@ -3,13 +3,27 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 
-#nav {
-
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #565656;
 }
 
+h2 {
+    font-size: 1em;
+    margin: 0;
+    color: #565656;
+}
+
+body {
+    margin: 0px;
+    font-family: verdana;
+    border-left: 20px solid #EFEEE9;
+    border-right: 20px solid #EFEEE9;
+    position: relative;
+}
 
 #nav>ul>li {
     float: left;
@@ -19,11 +33,10 @@ ul {
     text-decoration: none;
     color: #888381;
     display: block;
-    width:150px;
+    width:125px;
     text-align: center;
-    padding: 20px 10px 20px 10px;
-    margin-top: 50px;
-
+    padding: 70px 10px 40px 10px;
+    margin-top: 0px;
 }
 
 #nav>ul>li>a:hover, #nav>ul>li>a:active {
@@ -31,18 +44,21 @@ ul {
     color:white;
 }
 
+#nav .active {
+    background-color: #73196C;
+    color:white;
+}
+
 #logo {
     float: left;
     display: block;
+    border-right: 1px solid #f4f4f4;
+    height: 129px;
 }
 
 .mainlogo {
     width: 200px;
-    margin: 30px 30px 0px 30px;
-}
-
-body {
-    font-family: verdana;
+    margin: 17px 30px 0px 30px;
 }
 
 #maintext {
@@ -53,11 +69,14 @@ body {
 }
 
 .mainboxes {
-    width: 374px;
-    height: 275px;
+    width: 294px;
+    height: 200px;
     background-color: #EFEDE9;
     margin: 50px 15px 50px 15px;
     float: left;
+    padding: 60px 40px 30px 40px;
+    text-align: center;
+    color: #888381;
 }
 
 #mainboxsection {
@@ -66,3 +85,12 @@ body {
     margin-right: auto;
 }
 
+.naked {
+    margin: 50px 175px 50px 175px;
+    color: #888381;
+    text-align: justify;
+}
+
+#contactform {
+    margin: 30px 0px 20px 0px;
+}
